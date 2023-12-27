@@ -50,7 +50,7 @@ const Signup = () => {
           email:email,
         }
 
-        const data=axios.post('http://localhost:5000/register',user)
+        const data=axios.post('https://mern-twitter-clone-backend-fwmh.onrender.com/register',user)
         console.log(data)
     }
 
