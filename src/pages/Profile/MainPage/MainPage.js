@@ -46,7 +46,7 @@ const MainPage = ({ user }) => {
         }
         setIsLoading(false);
         if (url) {
-          axios.patch(`http://localhost:5000/userUpdates/${user?.email}`,userCoverImage)
+          axios.patch(`https://mern-twitter-clone-backend-fwmh.onrender.com/userUpdates/${user?.email}`,userCoverImage)
         }
       });
   };
