@@ -36,7 +36,7 @@ const TweetBox = () => {
   const handleTweet = (e) => {
     e.preventDefault();
     if(user.providerData[0].providerId==='password'){
-      fetch(`http://localhost:5000/loggedInUser?email=${email}`)
+      fetch(`https://mern-twitter-clone-backend-fwmh.onrender.com/loggedInUser?email=${email}`)
       .then(res=>res.json())
       .then(data=>{
           setName(data[0]?.name)
