@@ -1,0 +1,8 @@
+.widgets{
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.widgets::-webkit-scrollbar{
+    display: none;
+}

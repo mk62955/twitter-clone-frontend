@@ -1,0 +1,8 @@
+.sidebar-content-wrapper {
+    overflow: scroll;
+    height: 100%;
+}
+
+.sidebar-content-wrapper::-webkit-scrollbar {
+    display: none;
+}

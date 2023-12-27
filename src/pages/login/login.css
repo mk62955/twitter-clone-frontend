@@ -1,0 +1,8 @@
+* {
+  overflow-x: hidden;
+}
+input {
+  margin-block: 10px;
+  border: 1px solid rgb(79, 196, 229);
+  border-radius: 5px;
+}
